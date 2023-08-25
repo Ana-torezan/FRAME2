@@ -1,0 +1,219 @@
+/*Telas muito pequenas*/
+@media(max-width: 399.99px){
+	/* body{background: pink;} */
+	#ElementoDesktop{
+		display: none;
+	}
+
+}
+/*Celulares*/
+@media(min-width: 400px) and (max-width: 576px){
+	/* body{background: red;} */
+	#ElementoDesktop{
+		display: none;
+	}
+}
+/*tablets*/
+@media(min-width: 576.1px) and (max-width: 768px){
+	/* body{background: blue;} */
+	#ElementoDesktop{
+		display: none;
+	}
+	
+}
+/*notebbok*/
+@media(min-width: 768.1px) and (max-width: 992px){
+	/* body{background: yellow;} */
+	#ElementoMobile{
+		display: none;
+	}
+	#movendoDesktopMatriculaInfantil{
+		margin-top: -100px;
+		margin-right: 500px;
+	}
+	
+	
+}
+/*computadores*/
+@media(min-width: 992.1px) and (max-width: 1200px){
+	/* body{background: black;} */
+	#ElementoMobile{
+		display: none;
+	}
+	#movendoDesktopMatriculaInfantil{
+		margin-top: -100px;
+		margin-right: 500px;
+	}
+	#movendoGrupodeImagem{
+		margin-right: 100px;
+	}
+	
+}
+/*computadores tela grandes*/
+@media(min-width: 1200.1px) and (max-width: 2400px){
+	  /* body{background: green;} */
+	  #ElementoMobile{
+		display: none;
+	}
+	#movendoDesktopMatriculaInfantil{
+		margin-top: -100px;
+		margin-right: 700px;
+	}
+	#movendoGrupodeImagem{
+		margin-right: 100px;
+	}
+	  
+}
+/* Telas muito grandes  */
+@media(min-width: 2400.1px){
+	  /* body{background: Orange;} */
+	  #ElementoMobile{
+		display: none;
+	}
+	#movendoDesktopMatriculaInfantil{
+		margin-top: -100px;
+		margin-right: 700px;
+	}
+	#movendoGrupodeImagem{
+		margin-right: 100px;
+	}
+}
+
+/* Início barra Azul do topo  */
+#barra_azul_topo{
+	background: #0431B4; /*Azul*/
+	height:30px;
+}
+/* Fim barra Azul do topo  */
+/* Início botão acessar */
+#fundo_botao_acessar{
+	background: white;
+}
+#centroEducacional{
+	color:#0431B4 ; /*Azul*/
+}
+#btnAcessar{
+	background: #0431B4; /*azul*/
+}
+#text-areaLogada{
+	color: #FF4000; /*Laranja escuro*/
+}
+#cor_fundoAreaPrincipal{
+	background: #FF8000; /*Laranja claro*/
+}
+#flutuacao{
+	position: relative;
+	top: 20px;
+}
+
+
+
+
+
+
+/* fim botão acessar */
+/**/
+#TextFotos{
+	color: white;
+}
+/**/
+/*Início formatação geral*/
+#imgborder{
+	border-radius: 15px;
+}
+body{
+	background: #E6E6E6;
+}
+/*Início formatação geral*/
+/* Início barra final  */
+#corFundoFinal{
+	background: #58D3F7; /*Azul claro*/
+}
+#formatacaoIconesRedes{
+	width: 18%;
+}
+#alinhamentoIcone{
+	text-align: right;
+}
+#contato{
+	color: white;
+}
+#espacamentoContato{
+	margin-bottom: -10px;
+}
+#somosEducacao1{
+	width: 250px;
+	margin-top: 10px;
+}
+#somosEducacao2{
+	width: 100px;
+	margin-top: 10px;
+}
+/* Fim barra final  */
+/* Início página login  */
+#cor_fundoAreaPrincipal2{
+	background: #0080FF; /* Azul fundo área de login */
+}
+#bordaPreenchaDados{
+	background: #0431B4; /*Azul background titulos*/
+	border-radius: 10px;
+}
+#textPreencherColor{
+	color: white;
+}
+#labelColor{
+	color: white;
+}
+#bordaEnsinoPretendido{
+	background: #FF8000;
+	border-radius: 5px;
+	color: white;
+}
+#labelEdicaoRadio{
+	color: white;
+}
+#colorBotaoSubmit{
+	background:#FF8000;
+	color: white;
+}
+#seriesDisponiveis{
+	color: white;
+}
+
+/* Fim página login  */
+/*Início Página fotos*/
+#fundoSeriesDisponiveis{
+	background: #0431B4; /*Azul background titulos*/
+	border-radius: 15px;
+}
+#AlinhandoImagemadireita{
+	/* background: red; */
+	text-align: right;
+}
+#movendoParaCima{
+	margin-bottom: 90px;
+}
+#matriculaInfantil{
+	background:#FF8000 ;
+}
+
+/*Fim Página fotos*/
+/*Página Sobre*/
+#tituloHistoria{
+color: white;
+}
+#colorTexto{
+	color:#0431B4 ;
+	background: #E6E6E6;
+}
+#fundoAnglo{
+	background: #FF8000; /* laranja claro */
+	
+}
+#movendoAngloimg{
+	margin-right: -50px;
+}
+.colorBotaoSubmit{
+	background: #FF8000;
+}
+/*Página Sobre*/
